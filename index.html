@@ -1,0 +1,186 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!doctype html>
+<html lang="en">
+<div id="wrapper">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+
+  <head>
+    <meta charset="utf-8">
+    <title>FCC: Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FCC: Personal Portfolio">
+    <meta name="author" content="JosiahF">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+
+  </head>
+
+  <body>
+
+    <header id="welcome-section">
+      <section>
+        <div uk-sticky="top: 100">
+          <nav class="uk-navbar-container" uk-navbar>
+            <div id="navbar" class="uk-navbar-center">
+              <ul class="uk-navbar-nav">
+                <a href="#" class="uk-navbar-item uk-logo"></a>
+                <li class="uk-link-heading"> <a href="#"> Home</a></li>
+                <li class="uk-link-heading"> <a href="#project-one"> Projects</a></li>
+                <li class="uk-link-heading"><a href="#contact"> Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div id="welcome-section" class="uk-height-large uk-background-cover uk-light uk-flex uk-height-viewport" uk-parallax="bgy: -400" style="background-image: url('https://images.unsplash.com/photo-1583330620425-d608f2c59425?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2851&q=80" alt="Computer and Coffee"');">
+
+                <h1 class=" uk-text-center uk-margin-auto uk-margin-auto-vertical"> Welcome to My FCC: Personal Portfolio</h1>
+
+            </div>
+
+    <!-- Layout  -->
+    <main>
+        <div class="uk-grid-match uk-grid-small uk-text-left" uk-grid>
+
+            <!-- left Sidebar (responsive) -->
+            <div class="uk-width-1-5@m uk-width-1-3@l">
+                <div class="uk-section uk-section-primary">
+                    <div class="uk-card uk-padding">
+                    <h2>Josiah Fordahl</h2>
+                    <h3> Languages & Frameworks:</h3>
+                    <ul class="uk-list uk-list-square">
+                        <li>Ruby & Rails</li>
+                        <li>Javascript & React</li>
+                        <li>GraphQL</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                    <h3>Degrees & Certifications:</h3>
+                    <ul class="uk-list uk-list-square">
+                        <li> Certified Scrum Master</li>
+                        <li>Certified Scrum Product Owner</li>
+                        <li>AWS - Certified Cloud Practioner</li>
+                        <li>Launch School - Core Grad</li>
+                        <li>Bachelors: Business Management</li>
+                        <li>Masters: Management & Leadership</li>
+
+                    </ul>
+                    <h3> Projects: </h3>
+                    <ul class="uk-list uk-list-square">
+                        <li> <a  href="#My_First_Project">Project One</a> </li>
+                        <li> <a  href="#My_Second_Project">Project Two</a> </li>
+                        <li> <a  href="#My_Third_Project">Project Three</a> </li>
+                        <li> <a  href="#My_Fourth_Project">Project Four</a> </li>
+                    </ul>
+                       <h3> Where To Find Me:</h3>
+                    <ul class="uk-list uk-list-square">
+                        <li> <a class="nav-link" name="contact" id="codepen-profile-link" href="https://codepen.io/JosiahF" target="_blank">Code Pen</a> </li>
+                        <li> <a class="nav-link" id="profile-link" href="https://https://github.com/josiahf" target="_blank">Git Hub</a> </li>
+                        <li> <a class="nav-link" id="codewars-profile-link" href="https://www.codewars.com/users/josiahf" target="_blank">Code Wars</a> </li>
+                        <li> <a class="nav-link" id="medium-profile-link" href="https://josiah-fordahl.medium.com/" target="_blank">Medium</a> </li>
+                    </ul>
+                    </div>
+                    <h4></h4>
+                </div>
+            </div>
+            <!-- Right Content Area (responsive) -->
+            <div id="projects" class="uk-width-3-5@m uk-width-2-3@l">
+                <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-section uk-section-default">
+                        <div class="uk-container project-tile" >
+                            <a name="project-one"><h3>Project One</h3></a>
+
+                            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="uk-section uk-section-muted">
+                        <div class="uk-container project-tile">
+
+                            <h3>Project Two</h3>
+
+                            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="uk-section uk-section-default">
+                        <div class="uk-container project-tile">
+
+                            <h3>Project Three</h3>
+
+                            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="uk-section uk-section-muted">
+                        <div class="uk-container project-tile">
+
+                            <h3>Project Four</h3>
+
+                            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="uk-placeholder uk-text-center">“The man who does not read has no advantage over the man who cannot read.”
+                        ― Mark Twain</div>
+
+                </div>
+
+            </div>
+        </div>
+</main>
+    <footer>
+        <div class="footer">
+            <!-- Footer code goes here, nested further ID divs (if needed) -->
+            <small>&copy; Copyright 2021, Josiah Fordahl</small>
+        </div>
+    </footer>
+    
+    </body>
+</html>
